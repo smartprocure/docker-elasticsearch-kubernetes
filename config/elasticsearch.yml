@@ -33,3 +33,8 @@ discovery:
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
 
 xpack.ml.enabled: false
+
+thread_pool:
+  search:
+    size: ${THREADPOOL_SEARCH_SIZE}
+    queue_size: ${THREADPOOL_SEARCH_QUEUE_SIZE}
