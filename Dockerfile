@@ -1,4 +1,4 @@
-FROM quay.io/pires/docker-elasticsearch:6.4.2
+FROM us.gcr.io/evident-plane-94217/pires-docker-elasticsearch:6.5.1
 
 MAINTAINER pjpires@gmail.com
 
